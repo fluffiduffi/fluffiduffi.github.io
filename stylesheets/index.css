@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcefe9;
+}
+
+.home-img {
+  border-radius: 250px 250px 250px 0;
+  margin-top: 3rem;
+  float: left;
+}
+
+.home-img2 {
+  border-radius: 250px 250px 0 250px;
+  margin-top: 10rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.right-side {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p {
+  text-align: center;
+  font-size: 50px;
+  margin-top: -0.2rem;
+}
+
+.contents {
+  justify-content: center;
+  margin: auto;
+  margin-left: 15rem;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid #6a4a3a;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  font-size: 1.3em;
+  font-family: 'Merriweather';
+  border-radius: 25px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #6a4a3a;
+}
+
+.btn:hover {
+  background-color: #6a4a3a;
+}
+
+.btn:hover a {
+  color: #fff;
+}

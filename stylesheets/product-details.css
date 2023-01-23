@@ -1,0 +1,43 @@
+.container {
+  margin: 2rem 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.product-img {
+  float: left;
+  border-radius: 180px 180px 10px 10px;
+  margin: 2rem;
+  width: 400px;
+  height: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-details {
+  float: right;
+  font-family: 'Merriweather';
+  margin-left: 100px;
+}
+
+.product-details p {
+  margin-top: 3rem;
+}
+
+.add-to-cart-btn {
+  cursor: pointer;
+  border: 2px solid #6a4a3a;
+  background-color: #6a4a3a;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-family: 'Merriweather';
+  border-radius: 15px;
+  margin-top: 3rem;
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+}
+
+.add-to-cart-btn:hover {
+  background-color: transparent;
+  color: #6a4a3a;
+}

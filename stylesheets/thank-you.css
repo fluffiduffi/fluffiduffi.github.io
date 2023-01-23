@@ -1,0 +1,52 @@
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+}
+
+.card {
+  padding: 4rem 6rem;
+  background-color: #dde6d5;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 240px;
+  height: 240px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card .image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid #6a4a3a;
+  background-color: transparent;
+  height: 50px;
+  width: 30rem;
+  font-size: 1.1em;
+  font-family: 'Merriweather';
+  border-radius: 25px;
+  margin-top: 1.5rem;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #6a4a3a;
+}
+
+.btn:hover {
+  background-color: #6a4a3a;
+}
+
+.btn:hover a {
+  color: #fff;
+}

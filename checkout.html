@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Checkout</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./stylesheets/stylesheet.css" />
+    <link rel="stylesheet" href="./stylesheets/checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="./index.html">
+        <img src="./images/wearthlogo.png" alt="logo" />
+      </a>
+      <div class="navbar">
+        <a class="navbar" href="/bestsellers.html">Best Sellers</a>
+        <a class="navbar" href="/bags.html">Bags</a>
+        <a class="active" href="/accessories.html">Accessories</a>
+        <a class="navbar" href="/about-us.html">About Us</a>
+        <a class="shopping-cart" href="/cart.html"
+          ><img src="./images/shopping-cart.svg" alt="shopping-cart"
+        /></a>
+      </div>
+    </div>
+    <div class="hero">
+      <span id="item-1"></span>
+      <div class="hero-item hero-img">
+        <h1 class="hero-text">CHECKOUT</h1>
+      </div>
+    </div>
+    <div class="body-container">
+      <div class="card-payment">
+        <h2>Final Step, make the payment.</h2>
+        <p>
+          To finalize your subscription, kindly complete<br />
+          your payment using a valid credit card.
+        </p>
+        <div class="card-inputs">
+          <p>Card Number</p>
+          <input
+            id="ccn"
+            type="tel"
+            inputmode="numeric"
+            pattern="[0-9\s]{13,19}"
+            autocomplete="cc-number"
+            maxlength="19"
+            placeholder="XXXX XXXX XXXX XXXX"
+          />
+          <div class="expiry-cvc">
+            <div>
+              <p>Expiry</p>
+              <input
+                id="expiry"
+                type="tel"
+                inputmode="numeric"
+                pattern="[0-9\s]{13,19}"
+                maxlength="7"
+                placeholder="XX / XX"
+              />
+            </div>
+            <div class="margin-left">
+              <p>CVC</p>
+              <input
+                id="cvc"
+                type="tel"
+                inputmode="numeric"
+                pattern="[0-9\s]{13,19}"
+                maxlength="3"
+                placeholder="XXX"
+              />
+            </div>
+          </div>
+          <div class="discount">
+            <p>Discount Code</p>
+            <div>
+              <input type="text" placeholder="C00-20-OFF" id="discount" />
+              <button>Apply Here</button>
+            </div>
+          </div>
+          <a href="/thank-you.html">
+            <button class="btn">Confirm Payment</button>
+          </a>
+        </div>
+      </div>
+      <div class="item-details">
+        <h3>You've to pay,</h3>
+        <h1>$320<span>.00</span></h1>
+        <div class="descriptions">
+          <div class="description-subtitle">
+            <img src="./images/verify.svg" alt="check" />
+            <h4>Payment &#38; Invoice</h4>
+          </div>
+          <p style="margin: 0">
+            We'll worry about all the transactions and payment. You can sit back
+            and relax while you make yourself happy.
+          </p>
+        </div>
+        <div class="descriptions">
+          <div class="description-subtitle">
+            <img src="./images/verify.svg" alt="check" />
+            <h4>Discounts &#38; Offers</h4>
+          </div>
+          <p style="margin: 0">
+            You'll be provided with offers from time to time and have access to
+            exclusive releases or even membership perks and benefits.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

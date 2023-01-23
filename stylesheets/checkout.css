@@ -1,0 +1,154 @@
+.body-container {
+  display: flex;
+  align-items: center;
+}
+
+.body-container {
+  margin: 3rem 5rem;
+}
+
+.body-container .card-payment {
+  width: 70%;
+  height: 100%;
+}
+
+.body-container .item-details {
+  width: 30%;
+  height: 100%;
+  background-color: #dde6d5;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.card-payment p {
+  font-size: 14px;
+}
+
+.card-inputs {
+  margin-top: 4rem;
+}
+
+.card-inputs input {
+  background-color: #f3f4f5;
+  border: none;
+  height: 20px;
+  letter-spacing: 0.75rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.card-inputs p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-inputs #ccn,
+.card-inputs #discount {
+  width: 40%;
+}
+
+.card-inputs #cvc,
+.card-inputs #expiry {
+  width: 100%;
+}
+
+.expiry-cvc {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.discount {
+  margin-top: 2rem;
+}
+
+.margin-left {
+  margin-left: 3rem;
+}
+
+.discount div {
+  position: relative;
+}
+
+.discount button {
+  position: absolute;
+  bottom: 25%;
+  left: 30%;
+  background-color: transparent;
+  color: #6a4a3a;
+  border:none;
+  border-radius:10px;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.descriptions .description-subtitle {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.description-subtitle h4 {
+  margin-left: 5px;
+}
+
+.description-subtitle img {
+  width: 20px;
+  height: 20px;
+}
+
+.descriptions p {
+  font-size: 13px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid #6a4a3a;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: #6a4a3a;
+  font-size: 1em;
+  font-family: 'Merriweather';
+  border-radius: 25px;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background-color: #6a4a3a;
+  color: #fff;
+}
+
+/* Styles for hero image */
+.hero-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 50px;
+  opacity: 0;
+}
+
+.hero {
+  height: 500px;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.hero-img {
+  z-index: 2;
+  opacity: 1;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url("../images/money-banner.jpeg");
+  background-size: cover;
+}
+
+.hero-text {
+  color: white;
+  text-align: center;
+  padding-top: 160px;
+  letter-spacing: 0.5rem;
+  font-size: 50px;
+}
